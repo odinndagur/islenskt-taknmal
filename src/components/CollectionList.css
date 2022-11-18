@@ -1,0 +1,55 @@
+* {
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.homepage {
+    max-height: 90vh;
+    padding: none;
+    overflow-y: scroll;
+}
+
+h1 {
+font-family: 'Optima';
+font-style: bold;
+font-size:2rem;
+padding-bottom: none;
+}
+
+.collectionName {
+    font-style: normal;
+    font-size:1.5rem;   
+}
+
+
+hr {
+    margin: 1rem 0;
+}
+.addIcon {
+    float:right;
+    fill:rgba(255, 255, 255, 0.87);
+}
+
+a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.87);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    /* padding: 0.2rem 0;
+    font-variant: 100;
+    font-size: 1rem; */
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+ul>li:nth-child(even){
+    /* background-color: #191919; */
+}

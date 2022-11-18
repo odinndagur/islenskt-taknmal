@@ -1,0 +1,42 @@
+
+@supports(padding:max(0px)) {
+  body, header, footer {
+      padding-left: min(0vmin, env(safe-area-inset-left));
+      padding-right: min(0vmin, env(safe-area-inset-right));
+  }
+}
+
+html{
+  /* min-height: calc(100% + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); */
+  min-height: calc(100% + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  max-width: 600px;
+  /* height: 100%; */
+  box-sizing: border-box;
+  margin: auto;
+  /* text-align: center; */
+  /* border: 3px solid black; */
+  background:#212121;
+  color: rgba(255, 255, 255, 0.87);;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .navbar {
+  position: absolute;
+  bottom:2rem;
+  display:block;
+} */
+nav {
+  position:absolute;
+  bottom:2rem;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.header {
+  position:absolute;
+  top:1rem;
+}
