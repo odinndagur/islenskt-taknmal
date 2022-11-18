@@ -38,5 +38,6 @@ export default defineConfig({
           enabled: true
         }
     }),
-  ]
+  ],
+  base: '/islenskt-taknmal/'
 })
