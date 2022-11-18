@@ -21,7 +21,7 @@ let renderSign = (sign, idx) => {
 function Collection() {
     const [signCollection,setSignCollection]=useState([]);
     const getData=()=>{
-        fetch('src/assets/takn.json'
+        fetch('../assets/takn.json'
         ,{
         headers : { 
             'Content-Type': 'application/json',
